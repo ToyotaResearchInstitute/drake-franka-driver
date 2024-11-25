@@ -20,7 +20,7 @@ cc_binary(
     ],
     data = [
         "//models:franka_control_models",
-        "@drake//manipulation/models/franka_description:models",
+        "@drake_models//:franka_description",
     ],
 )
 
@@ -40,7 +40,7 @@ cc_binary(
     ],
     data = [
         "//models:franka_control_models",
-        "@drake//manipulation/models/franka_description:models",
+        "@drake_models//:franka_description",
     ],
 )
 
@@ -59,7 +59,7 @@ cc_binary(
     ],
     data = [
         "//models:franka_control_models",
-        "@drake//manipulation/models/franka_description:models",
+        "@drake_models//:franka_description",
     ],
 )
 
@@ -78,7 +78,7 @@ cc_binary(
     ],
     data = [
         "//models:franka_control_models",
-        "@drake//manipulation/models/franka_description:models",
+        "@drake_models//:franka_description",
     ],
 )
 add_lint_tests()

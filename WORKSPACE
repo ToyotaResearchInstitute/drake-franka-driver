@@ -5,11 +5,11 @@ workspace(name = "drake_franka_driver")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 (DRAKE_COMMIT, DRAKE_CHECKSUM) = (
-    "v1.21.0",
-    "6571295843aff8e11620340739bf5eab7a25130f8f06667b2d3e6df85567509a",
+    "v1.35.0",
+    "f19ee360656c87db8b0688c676c9f2ab2ae71ea08691432979b32d71c236e768",
 )
 
-DRAKE_STRIP_PREFIX = "drake-1.21.0"
+DRAKE_STRIP_PREFIX = "drake-1.35.0"
 # If using commit vs. a tag, uncomment below.
 # DRAKE_STRIP_PREFIX = "drake-v{}".format(DRAKE_COMMIT)
 

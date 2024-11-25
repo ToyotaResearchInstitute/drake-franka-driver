@@ -4,7 +4,7 @@ filegroup(
         "add_franka_control.yaml",
     ],
     data = [
-        "@drake//manipulation/models/franka_description:models",
+        "@drake_models//:franka_description",
     ],
     visibility = ["//visibility:public"],
 )
